@@ -3,6 +3,14 @@ body, h1, ul {
     margin: 0;
     padding: 0;
 }
+a{
+    position: relative;
+    span{
+        position: absolute;
+        top: 25%;
+        right: 38%;
+    }
+}
 
 /* Set a background color */
 body {
@@ -99,6 +107,15 @@ body {
 
 .product-button {
     background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-top: 10px;
+}
+.product-button-disabled {
+    background-color: gray;
     color: #fff;
     border: none;
     padding: 10px 20px;
